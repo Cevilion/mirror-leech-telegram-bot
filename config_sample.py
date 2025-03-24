@@ -1,15 +1,15 @@
 # REQUIRED CONFIG
-BOT_TOKEN = ""
-OWNER_ID = 0
-TELEGRAM_API = 0
-TELEGRAM_HASH = ""
+BOT_TOKEN = "7478595753:AAEjNx4mCN8vQb5cuEbCTkGoFwdhDbK8L84"
+OWNER_ID = 7950514048
+TELEGRAM_API = 22403100
+TELEGRAM_HASH = "ccbc3f662735abfa604ef6309ba76e67"
 # OPTIONAL CONFIG
 TG_PROXY = {}
-USER_SESSION_STRING = ""
+USER_SESSION_STRING = "BQBgWXkAD8z0w0VUtcAq1MfQuOec0swpl8XYmpvP_2bGdOpOS4PIf8i3-3baQllUt2v6nenMGrVoaV6CwHFSPzJOPUV7c-A3lWtSo7h_iAlp8htbaB-Vowy-M3hElc6tWjZ6Ev1w6i6-5JOkr8DuTuHATmDS7Fd6Zo48l3FaNqNB1CDt5yUi8DoP8nycv9x3RrzHIv0wUGe5BQAAAAB24ai3AA"
 CMD_SUFFIX = ""
 AUTHORIZED_CHATS = ""
 SUDO_USERS = ""
-DATABASE_URL = ""
+DATABASE_URL = "mongodb+srv://cbautobot2:cbautobot2@cluster0.5zlhzxl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 STATUS_LIMIT = 4
 DEFAULT_UPLOAD = "rc"
 STATUS_UPDATE_INTERVAL = 15
@@ -24,9 +24,9 @@ FFMPEG_CMDS = {}
 UPLOAD_PATHS = {}
 # GDrive Tools
 GDRIVE_ID = ""
-IS_TEAM_DRIVE = False
+IS_TEAM_DRIVE = True
 STOP_DUPLICATE = False
-INDEX_URL = ""
+INDEX_URL = "https://LioNriPs.tgx-bots.workers.dev/"
 # Rclone
 RCLONE_PATH = ""
 RCLONE_FLAGS = ""
@@ -87,7 +87,23 @@ RSS_SIZE_LIMIT = 0
 # Torrent Search
 SEARCH_API_LINK = ""
 SEARCH_LIMIT = 0
-SEARCH_PLUGINS = [
+SEARCH_PLUGINS = '["https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/piratebay.py",
+                 "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/limetorrents.py",
+                 "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/torrentscsv.py",
+                 "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/torlock.py",
+                 "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/eztv.py",
+                 "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/torrentproject.py",
+                 "https://raw.githubusercontent.com/v1k45/1337x-qBittorrent-search-plugin/master/leetx.py",
+                 "https://raw.githubusercontent.com/MaurizioRicci/qBittorrent_search_engines/master/kickass_torrent.py",
+                 "https://raw.githubusercontent.com/MaurizioRicci/qBittorrent_search_engines/master/yts_am.py",
+                 "https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/master/engines/linuxtracker.py",
+                 "https://raw.githubusercontent.com/MadeOfMagicAndWires/qBit-plugins/master/engines/nyaasi.py",
+                 "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/ettv.py",
+                 "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/glotorrents.py",
+                 "https://raw.githubusercontent.com/LightDestory/qBittorrent-Search-Plugins/master/src/engines/thepiratebay.py",
+                 "https://raw.githubusercontent.com/nindogo/qbtSearchScripts/master/magnetdl.py",
+                 "https://raw.githubusercontent.com/msagca/qbittorrent_plugins/main/uniondht.py",
+                 "https://raw.githubusercontent.com/khensolomon/leyts/master/yts.py"]'
     "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/piratebay.py",
     "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/limetorrents.py",
     "https://raw.githubusercontent.com/qbittorrent/search-plugins/master/nova3/engines/torlock.py",
